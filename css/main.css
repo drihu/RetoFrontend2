@@ -1,0 +1,129 @@
+main {
+    margin:auto;
+}
+
+@media (min-width: 768px) {
+  main.container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  main.container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  main.container {
+    width: 1170px;
+  }
+}
+
+.btn {
+  display: inline-block;
+  background-color: #AAA;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin-bottom: 0px;
+  padding: 6px 20px;
+  cursor: pointer;
+  color: #FFF;
+  font-size: 14px;
+  text-align: center;
+}
+.btn:hover {
+  background-color: #999;
+}
+.btn-amarillo {
+  background-color: #F5C54A;
+}
+.btn-amarillo:hover {
+  background-color: #E5C53A;
+}
+.btn-azul {
+  background-color: #0085C6;
+}
+.btn-azul:hover {
+  background-color: #0075B6;
+}
+.btn-blanco {
+  background-color: #FFF;
+  border-color: #CCC;
+  color: #333;
+}
+.btn-blanco:hover {
+  background-color: #EEE;
+}
+.btn-celeste {
+  background-color: #26B2C0;
+}
+.btn-celeste:hover {
+  background-color: #16A2B0;
+}
+.btn-naranja {
+  background-color: #FF8C00;
+}
+.btn-naranja:hover {
+  background-color: #EF7C00;
+}
+.btn-negro {
+  background-color: #333;
+}
+.btn-negro:hover {
+  background-color: #000;
+}
+.btn-rojo {
+  background-color: #ED5040;
+}
+.btn-rojo:hover {
+  background-color: #DD4030;
+}
+.btn-verde {
+  background-color: #5CB85C;
+}
+.btn-verde:hover {
+  background-color: #4CA84C;
+}
+
+html, body {
+    font-family: "Lato";
+}
+
+
+a {
+    color: #47A;
+    text-decoration: none;
+}
+
+a.btn {
+    font-size: 20px;
+}
+
+main section {
+    padding: 30px 15px;
+    font-family: "Lato";
+}
+
+main section h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+main section hr {
+    border-color: #FAFAFA;
+}
+
+main section p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+footer {
+    background-color: #444A54;
+    padding: 30px 0;
+}
+
+footer p {
+    margin: 0;
+    color: #FFF;
+    text-align: center;
+}
